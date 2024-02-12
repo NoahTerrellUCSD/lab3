@@ -25,9 +25,9 @@ public class ArrayTests {
 
   @Test 
 	public void testReverseInPlace1() {
-    int[] input1 = {3,2,1};
+    int[] input1 = {6,5,4,3,2,1};
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{1,2,3}, input1);
+    assertArrayEquals(new int[]{1,2,3,4,5,6}, input1);
 	}
   
 
